@@ -21,6 +21,7 @@ public class TryProcessing extends PApplet {
 
     @Override
     public void setup() {
+        paintWhite();
         drawCircle(); // width: xpos, height: ypos, c = widthOfEllipse, d = heightOfEllipse
     }
 
