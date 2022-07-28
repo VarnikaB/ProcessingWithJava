@@ -9,4 +9,9 @@ public class TryProcessing extends PApplet {
         super.settings();
         size(640, 480);
     }
+
+    @Override
+    public void setup() {
+        ellipse(320, 240, 100, 100);
+    }
 }
